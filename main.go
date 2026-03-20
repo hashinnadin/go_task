@@ -4,9 +4,6 @@ import "github.com/gin-gonic/gin"
 
 var sessions = map[string]string{}
 
-func hy() {
-
-}
 func login(c *gin.Context) {
 
 	var user struct {
